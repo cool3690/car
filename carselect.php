@@ -1,14 +1,14 @@
 <?php     
-	 //require_once("db.php");
- //$scar=$_POST['scar'];
-       // $date=$_POST['date'];
-      //  $time=$_POST['time'];
+	  
+  $scar=$_POST['scar'];
+        $date=$_POST['date'];
+       $time=$_POST['time'];
       //      echo $scar;
-                $scar="233-VG";
+              //  $scar="233-VG";
               date_default_timezone_set('Asia/Taipei');
-              $date=date('Ymd');
+              //$date=date('Ymd');
               //$time=date('Hms');
-               $time="08";
+              // $time="08";
 
                 //$date="20210705";
               $fileList = glob($scar.'/'.$date.'/'.$time.'/*');

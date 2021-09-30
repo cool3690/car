@@ -6,12 +6,10 @@
 	 $scar="233-VG";
 	date_default_timezone_set('Asia/Taipei');
 	$date=date('Ymd');
-	$time=date('Hms');
-	$time="08";
-	//$stime1 =str_pad((int)substr($time,0,2),2,'0',STR_PAD_LEFT);
-	//$stime2 =str_pad((int)substr($time,2,2),2,'0',STR_PAD_LEFT);
-	// echo '$date--------'.$date."<br>";
-    $date="20210922";
+	$time=date('H');
+	//$time="08";
+	 
+    // $date="20210922";
 	$fileList = glob($scar.'/'.$date.'/*');
 	$fileListexist=count(glob($scar.'/'.$date.'/'.$time.'/CH1/*'));
  //echo $scar.'/'.$date.'/'.$time.'/*'.$fileListexist;
